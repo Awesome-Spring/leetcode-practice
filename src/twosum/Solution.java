@@ -1,7 +1,11 @@
+package twosum;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class Solution {
+
+
 
     /**
      * 常规暴力解法  遍历每个元素 x,并查找是否存在一个值与 target−x 相等的目标元素
@@ -26,7 +30,7 @@ public class Solution {
 //    }
 
     /**
-     * 优化版本
+     *
      * @param nums
      * @param target
      * @return
