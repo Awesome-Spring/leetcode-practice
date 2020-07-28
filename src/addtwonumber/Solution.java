@@ -25,8 +25,8 @@ class Solution {
             int a = p != null ? p.val : 0;
             int b = q != null ? q.val : 0;
             int sum = a + b + carry;
-            carry = sum % 10;
-            curr.next = new ListNode(sum);
+            carry = sum / 10;
+            curr.next = new ListNode(sum%10);
             curr = curr.next;
             if (p!=null){
                 p = p.next;
