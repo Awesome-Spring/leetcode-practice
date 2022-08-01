@@ -1,11 +1,6 @@
-/**
- * 杭州云霁科技有限公司
- * http://www.idcos.com
- * Copyright (c) 2020 All Rights Reserved.
- */
+
 package addtwonumber;
 
-import com.sun.deploy.util.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
